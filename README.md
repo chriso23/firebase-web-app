@@ -1,6 +1,6 @@
 ## Firebase 
 
-*Project documentation coming soon. *
+*Project documentation coming soon.*
 
 
 
