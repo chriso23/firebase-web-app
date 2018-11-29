@@ -1,6 +1,12 @@
-## Firebase Web Sample
+# Firebase Web Sample Project
 
-This sample project demonstrates how to use [Firebase](https://firebase.google.com/) to build a real-time chat app.
+## Introduction
+
+This sample project demonstrates how to use [Firebase](https://firebase.google.com/) to quickly build and deploy a real-time chat app using Firebase services and products. 
+
+## Get started
+
+*Coming soon* 
 
 ## License 
 
