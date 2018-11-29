@@ -1,6 +1,6 @@
 ## Firebase Web Sample
 
-This project contains a real-time web chat app that is powered by [Firebase](https://firebase.google.com/). 
+This sample project demonstrates how to use [Firebase](https://firebase.google.com/) to build a real-time chat app.
 
 ## License 
 
