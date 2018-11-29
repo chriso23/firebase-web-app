@@ -1,4 +1,4 @@
-# Firebase Web Sample Project
+# Firebase Web Project
 
 ## Introduction
 
