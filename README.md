@@ -1,6 +1,6 @@
-## FireChat
+## Firebase Web Sample
 
-This project contains a real-time web chat that is powered by [Firebase]. 
+This project contains a real-time web chat app that is powered by [Firebase](https://firebase.google.com/). 
 
 ## License 
 
