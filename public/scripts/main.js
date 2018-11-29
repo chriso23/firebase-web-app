@@ -109,7 +109,7 @@ function requestNotificationsPermissions() {
   });
 }
 
-// Triggered when a file is selected via the media picker.
+// This function is triggered when a file is selected via the media picker.
 function onMediaFileSelected(event) {
   event.preventDefault();
   var file = event.target.files[0];
@@ -132,7 +132,7 @@ function onMediaFileSelected(event) {
   }
 }
 
-// Triggered when the send new message form is submitted.
+// This function is triggered when the send new message form is submitted.
 function onMessageFormSubmit(e) {
   e.preventDefault();
   // Check that the user entered a message and is signed in.
@@ -152,19 +152,19 @@ function authStateObserver(user) {
     var profilePicUrl = getProfilePicUrl();
     var userName = getUserName();
 
-    // Set the user's profile pic and name.
+    // Sets the user's profile pic and name.
     userPicElement.style.backgroundImage = 'url(' + profilePicUrl + ')';
     userNameElement.textContent = userName;
 
-    // Show user's profile and sign-out button.
+    // Shows user's profile and sign-out button.
     userNameElement.removeAttribute('hidden');
     userPicElement.removeAttribute('hidden');
     signOutButtonElement.removeAttribute('hidden');
 
-    // Hide sign-in button.
+    // Hides the sign-in button.
     signInButtonElement.setAttribute('hidden', 'true');
 
-    // We save the Firebase Messaging Device token and enable notifications.
+    // Saves the Firebase Messaging Device token and enables notifications.
     saveMessagingDeviceToken();
   } else { // User is signed out!
     // Hide user's profile and sign-out button.
@@ -172,7 +172,7 @@ function authStateObserver(user) {
     userPicElement.setAttribute('hidden', 'true');
     signOutButtonElement.setAttribute('hidden', 'true');
 
-    // Show sign-in button.
+    // Shows sign-in button.
     signInButtonElement.removeAttribute('hidden');
   }
 }
@@ -184,7 +184,7 @@ function checkSignedInWithMessage() {
     return true;
   }
 
-  // Display a message to the user using a Toast.
+  // Displays a message to the user using a Toast.
   var data = {
     message: 'You must sign-in first',
     timeout: 2000
@@ -199,7 +199,7 @@ function resetMaterialTextfield(element) {
   element.parentNode.MaterialTextfield.boundUpdateClassesHandler();
 }
 
-// Template for messages.
+//HTML tags for the messages.
 var MESSAGE_TEMPLATE =
     '<div class="message-container">' +
       '<div class="spacing"><div class="pic"></div></div>' +
@@ -236,7 +236,7 @@ function displayMessage(key, name, text, picUrl, imageUrl) {
   var messageElement = div.querySelector('.message');
   if (text) { // If the message is text.
     messageElement.textContent = text;
-    // Replace all line breaks by <br>.
+    // Replaces all line breaks by <br>.
     messageElement.innerHTML = messageElement.innerHTML.replace(/\n/g, '<br>');
   } else if (imageUrl) { // If the message is an image.
     var image = document.createElement('img');
@@ -247,7 +247,7 @@ function displayMessage(key, name, text, picUrl, imageUrl) {
     messageElement.innerHTML = '';
     messageElement.appendChild(image);
   }
-  // Show the card fading-in and scroll to view the new message.
+  // Shows the card fading-in and scrolls to view the new message.
   setTimeout(function() {div.classList.add('visible')}, 1);
   messageListElement.scrollTop = messageListElement.scrollHeight;
   messageInputElement.focus();
@@ -294,7 +294,7 @@ messageFormElement.addEventListener('submit', onMessageFormSubmit);
 signOutButtonElement.addEventListener('click', signOut);
 signInButtonElement.addEventListener('click', signIn);
 
-// Toggle for the button.
+// Toggles for the button.
 messageInputElement.addEventListener('keyup', toggleButton);
 messageInputElement.addEventListener('change', toggleButton);
 
@@ -305,8 +305,8 @@ imageButtonElement.addEventListener('click', function(e) {
 });
 mediaCaptureElement.addEventListener('change', onMediaFileSelected);
 
-// initialize Firebase
+// Initializes Firebase
 initFirebaseAuth();
 
-// We load currently existing chat messages and listen to new ones.
+// Loads existing chat messages and listens to new messages
 loadMessages();
