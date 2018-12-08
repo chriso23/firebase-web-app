@@ -1,4 +1,4 @@
-## Firebase Web App: Real-time Chat Client
+## Firebase Web App: FireChat Real-time Messenger
 
 This sample web app was built with resources from the [Firebase Web Codelab](https://codelabs.developers.google.com/codelabs/firebase-web/). 
 
