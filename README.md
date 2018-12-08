@@ -1,4 +1,4 @@
-## Firebase Web Sample: Building a Real-time Chat App
+## Firebase Web App
 
 This sample web app was built with resources from the [Firebase Web Codelab](https://codelabs.developers.google.com/codelabs/firebase-web/). 
 
