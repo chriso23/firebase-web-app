@@ -1,6 +1,6 @@
-## Firebase Web Chat
+## Firebase Web App: Real-time Chat Client
 
-This sample web app was built with resources from [Firebase Web Codelab](https://codelabs.developers.google.com/codelabs/firebase-web/). 
+This sample web app was built with resources from the [Firebase Web Codelab](https://codelabs.developers.google.com/codelabs/firebase-web/). 
 
 ## License 
 
