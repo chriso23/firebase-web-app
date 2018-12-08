@@ -1,4 +1,4 @@
-## Firebase Real-Time Chat App
+## Simple Real-Time Chat App Powered by Firebase
 
 This sample web app was built with resources from the [Firebase Web Codelab](https://codelabs.developers.google.com/codelabs/firebase-web/). 
 
