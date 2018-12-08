@@ -1,7 +1,7 @@
 Firebase Chat App
 ------------------
 
-This sample Firebase web app is an open source, real-time chat client powered by the [Firebase JavaScript SDK](https://firebase.google.com/docs/web/setup).  
+This sample Firebase web app demonstrates an open source, real-time chat client powered by the [Firebase JavaScript SDK](https://firebase.google.com/docs/web/setup).  
 
 Setup
 -----
