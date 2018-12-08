@@ -1,7 +1,7 @@
+Firebase Chat App
+------------------
 
----------------------------
-
-This app, FireChat, is an open source, real-time chat application powered by the [Firebase JavaScript SDK](https://firebase.google.com/docs/web/setup). FireChat is a straight-forward messaging app to demonstrate [Firebase Authentication](#), [Firebase Realtime Database](#), [Firebase Hosting](#), and [Firebase Cloud Messaging](#).
+This sample Firebase web app is an open source, real-time chat client powered by the [Firebase JavaScript SDK](https://firebase.google.com/docs/web/setup).  
 
 Setup
 -----
