@@ -1,6 +1,10 @@
-## Firebase Web App: Real-Time Chat
+## FireChat: A Real-Time Chat App Powered by Firebase
 
-This sample web app was built with resources from the [Firebase Web Codelab](https://codelabs.developers.google.com/codelabs/firebase-web/). 
+This project, FireChat, is an open source, real-time chat app powered by the Firebase JavaScript SDK. It uses multiple Firebase services to support user authentication, real-time data synchronization, and web hosting. For more information, see [firebase.google.com](https://firebase.google.com). 
+
+## Installation & Setup
+
+*Coming soon* 
  
 ## License 
 
