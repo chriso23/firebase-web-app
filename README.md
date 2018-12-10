@@ -1,9 +1,6 @@
 Firebase Real-time Chat App
 ---------------------------
-
-### Introduction
-
-This Firebase web app contains a step-by-step tutorial to help beginners learn how to build a simple real-time chat application that is powered by the [Firebase SDK](https://firebase.google.com/docs/web/setup).
+This project demonstrates how to use [Firebase](https://console.firebase.google.com) to build and deploy a real-time chat client for the web.
 
 ### License 
 
