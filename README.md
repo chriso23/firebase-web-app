@@ -1,6 +1,15 @@
 Firebase Chat App
 ---------------------------
-This project demonstrates how to use [Firebase](https://console.firebase.google.com) to build and deploy a real-time chat client for the web.
+This document demonstrates how to connect to Firebase and use its complementary services to build and deploy a real-time chat client for the web. 
+
+Features
+--------
+This Chat app is built with the following Firebase services: 
+
+- Firebase Hosting
+- Firebase Authentication
+- Firebase Realtime Database
+- Firebase Cloud Storage
 
 ### License 
 
