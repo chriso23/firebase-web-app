@@ -98,16 +98,17 @@
 <!-- Import and configure the Firebase SDK -->
 <script src="https://www.gstatic.com/firebasejs/5.5.9/firebase.js"></script>
 <script>
- // TODO: Set the configuration for your app
+  // Initialize Firebase
+  // TODO: Replace the following with your project's customized web configuration
   var config = {
-    apiKey: "apiKey",
-    authDomain: "projectId.firebaseapp.com",
-    databaseURL: "https://databaseName.firebaseio.com",
-    storageBucket: "bucket.appspot.com"
+    apiKey: "<API_KEY>",
+    authDomain: "<PROJECT_ID>.firebaseapp.com",
+    databaseURL: "https://<DATABASE_NAME>.firebaseio.com",
+    projectId: "<PROJECT_ID>",
+    storageBucket: "<BUCKET>.appspot.com",
+    messagingSenderId: "<SENDER_ID>",
   };
   firebase.initializeApp(config);
-  // Get a reference to the database service
-  var database = firebase.database();
 </script>
 <!-- These scripts are made available when the app is served or deployed on Firebase Hosting -->
 <script src="/__/firebase/5.5.9/firebase-app.js"></script>
