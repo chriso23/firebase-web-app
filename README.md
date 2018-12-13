@@ -4,7 +4,7 @@ This document demonstrates how to connect to Firebase and use its complementary 
 
 Features
 --------
-This Chat app is built with the following Firebase services: 
+This chat app is built with the following Firebase services: 
 
 - Firebase Hosting
 - Firebase Authentication
