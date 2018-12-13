@@ -98,16 +98,16 @@
 <!-- Import and configure the Firebase SDK -->
 <script src="https://www.gstatic.com/firebasejs/5.5.9/firebase.js"></script>
 <script>
-  // Initialize Firebase
+ // TODO: Set the configuration for your app
   var config = {
-    apiKey: "AIzaSyCcsGYYxSjYrAjVlu77BoDfNBWmt4rEeag",
-    authDomain: "firechat23.firebaseapp.com",
-    databaseURL: "https://firechat23.firebaseio.com",
-    projectId: "firechat23",
-    storageBucket: "firechat23.appspot.com",
-    messagingSenderId: "584321929729"
+    apiKey: "apiKey",
+    authDomain: "projectId.firebaseapp.com",
+    databaseURL: "https://databaseName.firebaseio.com",
+    storageBucket: "bucket.appspot.com"
   };
   firebase.initializeApp(config);
+  // Get a reference to the database service
+  var database = firebase.database();
 </script>
 <!-- These scripts are made available when the app is served or deployed on Firebase Hosting -->
 <script src="/__/firebase/5.5.9/firebase-app.js"></script>
