@@ -1,4 +1,4 @@
-Firebase Web App
+Firebase Real-time Chat App
 ---------------------------
 This document demonstrates how to connect to Firebase and use its complementary services to build and deploy a real-time chat client for the web. 
 
