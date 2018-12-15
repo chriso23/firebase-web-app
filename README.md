@@ -2,7 +2,9 @@ Firebase Real-time Chat App
 ---------------------------
 This document demonstrates how to connect to Firebase and use its complementary services to build and deploy a real-time chat client for the web. 
 
-**[Live Demo](https://firechat23.firebaseapp.com)**
+Preview
+-------
+[<img src="public/images/screenshot.png" height="700" width="520">](https://firechat23.firebaseapp.com)
 
 ### License 
 
