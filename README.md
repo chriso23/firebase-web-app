@@ -1,5 +1,8 @@
 Firebase Real-Time Chat App
 ---------------------------
+
+Introduction
+------------
 This document demonstrates how to connect to Firebase and use its complementary services to build and deploy a real-time chat client for the web. 
 
 Live Preview
@@ -16,10 +19,11 @@ To create a Firebase project, follow these steps:
 
 2. In the **Add a project** dialog box, complete the following tasks:
    
-   a. In the **Project name** box, type your project name
+   a. In the **Project name** box, enter a name in the Project name field
    
    b. Clear the **Controller-controller terms** checkbox, then click **Create project**
-
+   
+   
 License 
 -------
 © Chris Oung, 2018. Licensed under an [Apache-2](https://github.com/chrisoung/firebase-web/blob/master/LICENSE) license.
