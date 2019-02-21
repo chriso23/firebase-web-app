@@ -15,7 +15,7 @@ Getting started
 
 To create a Firebase project, follow these steps: 
 
-1. On your computer, go to [console.firebase.google.com](), then click **Add project**
+1. On your computer, go to [console.firebase.google.com](); then, click **Add project**
 
 2. In the **Add a project** dialog box, complete the following tasks:
    
