@@ -1,0 +1,37 @@
+[debug] [2019-04-18T06:00:16.634Z] ----------------------------------------------------------------------
+[debug] [2019-04-18T06:00:16.636Z] Command:       /usr/local/bin/node /Users/chrisoung/.npm-global/bin/firebase serve
+[debug] [2019-04-18T06:00:16.636Z] CLI Version:   6.1.1
+[debug] [2019-04-18T06:00:16.636Z] Platform:      darwin
+[debug] [2019-04-18T06:00:16.636Z] Node Version:  v8.12.0
+[debug] [2019-04-18T06:00:16.636Z] Time:          Wed Apr 17 2019 23:00:16 GMT-0700 (PDT)
+[debug] [2019-04-18T06:00:16.636Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-04-18T06:00:16.644Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-04-18T06:00:16.644Z] > authorizing via signed-in user
+[debug] [2019-04-18T06:00:16.644Z] [iam] checking project firechat23 for permissions ["firebase.projects.get"]
+[debug] [2019-04-18T06:00:16.646Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-04-18T06:00:16.646Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-04-18T06:00:16.800Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-18T06:00:16.821Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/firechat23:testIamPermissions  
+
+[debug] [2019-04-18T06:00:16.962Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-18T06:00:16.963Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/firechat23  
+ 
+[debug] [2019-04-18T06:00:17.145Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/chrisoung/GitHub/firebase/web'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2019-04-18T06:00:17.859Z] Fetching environment
+[debug] [2019-04-18T06:00:17.861Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/584321929729:getServerAppConfig  
+ 
+[debug] [2019-04-18T06:00:17.861Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/584321929729/clients/_:getWebAppConfig  
+ 
+[debug] [2019-04-18T06:00:18.073Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-18T06:00:18.073Z] Starting @google-cloud/functions-emulator
+[debug] [2019-04-18T06:00:18.168Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-04-18T06:00:19.649Z] Parsing function triggers
+[info] i  functions: No HTTPS functions found. Use firebase functions:shell if you would like to emulate other types of functions.

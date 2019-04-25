@@ -1,12 +1,12 @@
 'use strict';
 
-// Signs-in to FireChat23
-function signIn() {
+// Signs-in to the chat app
+ function signIn() {
   var provider = new firebase.auth.GoogleAuthProvider();
   firebase.auth().signInWithPopup(provider)
 }
 
-// Signs-out of FireChat23
+// Signs-out of the chat app
 function signOut() {
   firebase.auth().signOut();
 }
@@ -285,7 +285,7 @@ var imageFormElement = document.getElementById('image-form');
 var mediaCaptureElement = document.getElementById('mediaCapture');
 var userPicElement = document.getElementById('user-pic');
 var userNameElement = document.getElementById('user-name');
-var signInButtonElement = document.getElementById('sign-in');
+var signInButtonElement = document.getElementById('google-sign-in');
 var signOutButtonElement = document.getElementById('sign-out');
 var signInSnackbarElement = document.getElementById('must-signin-snackbar');
 
