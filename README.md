@@ -1,5 +1,5 @@
-Firebase Real-Time Chat App
----------------------------
+Firebase Web App
+----------------
 
 Introduction
 ------------
@@ -8,20 +8,6 @@ This document demonstrates how to connect to Firebase and use its complementary 
 Live Preview
 ------------
 [<img src="public/images/screenshot.png" height="650" width="450">](https://firechat23.firebaseapp.com)
-
-Getting started
----------------
-**Create a Firebase Project**
-
-To create a Firebase project, follow these steps: 
-
-1. On your computer, go to [console.firebase.google.com](); then, click **Add project**
-
-2. In the **Add a project** dialog box, complete the following tasks:
-   
-   a. In the **Project name** box, enter a name in the Project name field
-   
-   b. Clear the **Controller-controller terms** checkbox, then click **Create project**
    
    
 License 
