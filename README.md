@@ -1,6 +1,6 @@
 Firebase Realtime Web App
 --------------------------
-This document demonstrates how to connect to Firebase and use its complementary services to build and deploy a real-time chat client for the web. 
+This quickstart demonstrates how to connect to Firebase and use its complementary services to build, test, and deploy a real-time chat client for the web. 
     
 License 
 -------
