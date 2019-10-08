@@ -1,4 +1,4 @@
-Firebase Instant Messaging Web App
+Firebase Chat Web App
 --------------------------
 This quickstart demonstrates how to connect to Firebase and use its complementary services to build, test, and deploy a real-time chat client for the web. 
     
